@@ -3,8 +3,6 @@ var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 // document.querySelectorAll("img")[0].setAttribute("src","images/dice2.png");
 
-alert(randomNumber1);
-alert(randomNumber2);
 
 var randomDice1 = "dice" + randomNumber1 + ".png";
 var randomDice2 = "dice" + randomNumber2 + ".png";
@@ -12,8 +10,6 @@ var randomDice2 = "dice" + randomNumber2 + ".png";
 var randomImageSource1 = "images/" + randomDice1;
 var randomImageSource2 = "images/" + randomDice2;
 
-alert(randomImageSource1);
-alert(randomImageSource2);
 
 var image1 = document.querySelectorAll("img")[0];
 var image2 = document.querySelectorAll("img")[1];
